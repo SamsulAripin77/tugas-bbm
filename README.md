@@ -79,7 +79,7 @@ Kembalian     : Rp 30.000
 - Output angka gunakan format Rp dan pemisah ribuan (contoh: Rp 12.500).
 
 ---
-
+<!--
 ## 🚀 Part 2: Advance
 Tambahkan dua fitur baru:
 ### 1️⃣ Fitur Diskon (Opsional)
@@ -102,9 +102,11 @@ Harga setelah diskon = 12.500 - (20% x 12.500) = Rp 10.000
    - PPN wajib ditambahkan ke total pembelian
 
 ### 🧮 Contoh:
+```bash
    Harga BBM setelah diskon: Rp 20.000
    PPN 11% = 11% × 20.000 = Rp 2.200
    Total yang harus dibayar = Rp 22.200
+```
 
 ### 📝 Contoh Output Advance
 ```bash
