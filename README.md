@@ -77,3 +77,51 @@ Kembalian     : Rp 30.000
 - Nominal pembelian dan uang dibayar harus angka (tidak boleh huruf).
 - Tidak boleh membeli lebih dari uang yang dibayar.
 - Output angka gunakan format Rp dan pemisah ribuan (contoh: Rp 12.500).
+
+---
+
+## 🚀 Part 2: Advance
+Tambahkan dua fitur baru:
+### 1️⃣ Fitur Diskon (Opsional)
+
+- Pengguna boleh memasukkan diskon dalam persen (%)
+- Diskon maksimal 100%, tidak boleh negatif.
+- Jika ada diskon, harga BBM dikurangi diskon sebelum dihitung liter.
+
+### 🧮 Contoh:
+
+Harga Pertamax: Rp 12.500
+Diskon: 20%
+Harga setelah diskon = 12.500 - (20% x 12.500) = Rp 10.000
+### 2️⃣ Tambahkan PPN (Pajak Pertambahan Nilai)
+
+   - Besarnya PPN = 11%
+
+   - PPN dihitung setelah diskon
+
+   - PPN wajib ditambahkan ke total pembelian
+
+### 🧮 Contoh:
+   Harga BBM setelah diskon: Rp 20.000
+   PPN 11% = 11% × 20.000 = Rp 2.200
+   Total yang harus dibayar = Rp 22.200
+
+### 📝 Contoh Output Advance
+```bash
+=== Hasil Transaksi ===
+Jenis BBM        : Pertamax
+Harga/liter      : Rp 12.500
+Diskon           : 20%
+Harga diskon     : Rp 10.000
+Nominal beli     : Rp 20.000
+PPN (11%)        : Rp 2.200
+Total dibayar    : Rp 22.200
+Liter didapat    : 2 liter
+Uang dibayar     : Rp 25.000
+Kembalian        : Rp 2.800
+```
+
+💡 Tips Tambahan
+   - Gunakan fungsi number_format() di PHP untuk memformat angka dengan ribuan.
+   - Gunakan array untuk menyimpan daftar BBM dan harganya.
+   - Validasi input dengan is_numeric().
