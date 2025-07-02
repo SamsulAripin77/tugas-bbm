@@ -69,3 +69,11 @@ Nominal beli  : Rp 20.000
 Liter dapat   : 1,6 liter
 Uang dibayar  : Rp 50.000
 Kembalian     : Rp 30.000
+
+```
+---
+
+### ⚠️ Validasi Wajib
+- Nominal pembelian dan uang dibayar harus angka (tidak boleh huruf).
+- Tidak boleh membeli lebih dari uang yang dibayar.
+- Output angka gunakan format Rp dan pemisah ribuan (contoh: Rp 12.500).
