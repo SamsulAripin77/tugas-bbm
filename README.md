@@ -79,7 +79,7 @@ Kembalian     : Rp 30.000
 - Output angka gunakan format Rp dan pemisah ribuan (contoh: Rp 12.500).
 
 ---
-<!--
+
 ## 🚀 Part 2: Advance
 Tambahkan dua fitur baru:
 ### 1️⃣ Fitur Diskon (Opsional)
